@@ -13,7 +13,7 @@ const { isAuthenticated } = require('./middlewares/authMiddleware')
 const { isAdmin, isEmployee } = require('./middlewares/userMiddleware')
 
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000;
 
 app.use(session({
     secret: 'secret',
