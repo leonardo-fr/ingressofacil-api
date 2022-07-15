@@ -8,5 +8,5 @@ app.get("/", function (req, res) {
 });
 
 app.listen(port, () => {
-    console.info("Aplicação rodando em http://localhost:" + port);
+    console.info("Aplicação rodando em http://localhost:");
 });
