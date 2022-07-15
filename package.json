@@ -1,0 +1,17 @@
+{
+  "name": "ingressofa-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "pg-promise": "^10.11.1"
+  }
+}
